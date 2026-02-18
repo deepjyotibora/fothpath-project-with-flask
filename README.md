@@ -1,6 +1,6 @@
-# Project Title
+# Footpath walkability assesment using images
 
-A brief description of your project and its purpose.
+footpath walkability assesment using images in guwahati ,classify the fothpath quality as safe,moderate,unsafe
 
 ## Prerequisites
 
