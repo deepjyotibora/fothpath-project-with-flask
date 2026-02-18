@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Walkability AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🚶 Walkability Detection AI</h1>
+
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="image" required>
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if image_path %}
+        <div class="result">
+            <h3>Uploaded Image:</h3>
+            <img src="{{ image_path }}" width="300">
+        </div>
+        {% endif %}
+
+        {% if prediction %}
+        <div class="prediction">
+            <h2>Prediction: {{ prediction }}</h2>
+            <p>Confidence: {{ confidence }}%</p>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <p style="color:red;">{{ error }}</p>
+        {% endif %}
+
+    </div>
+
+</body>
+
+</html>

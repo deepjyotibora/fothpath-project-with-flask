@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.result img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.prediction {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
