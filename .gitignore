@@ -1,4 +1,5 @@
 walkability_model.pt
+uploads/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
